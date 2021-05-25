@@ -12,7 +12,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 st.title("Stock Prediction")
 st.write("###")
 
-stocks = ("AAPL", "NFLX", "GOOG", "MSFT", "INFY")
+stocks = ("AAPL", "NFLX", "GOOG", "MSFT", "INFY", "RPOWER.NS", "BAJFINANCE.NS", "YESBANK.NS", "RCOM.NS", "EXIDEIND.NS", "TATACHEM.NS", "TATAMOTORS.NS", "RUCHI.NS")
 selected_stock = st.selectbox("Select dataset and years for prediction", stocks)
 
 n_years = st.slider("", 1, 4)
