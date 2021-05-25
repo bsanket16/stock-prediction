@@ -3,7 +3,7 @@ Streamlit Web App for Stock Prediction
 
 ## Dependencies
 
-Install all libraries
+Run and install all libraries
 
 ```bash
 pip install streamlit yfinance fbprophet plotly
@@ -11,7 +11,7 @@ pip install streamlit yfinance fbprophet plotly
 
 ## Development & Production
 
-Use the streamlit to run the webapp
+Use the streamlit to run the web app
 
 ```bash
 streamlit run main.py
